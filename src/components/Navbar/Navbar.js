@@ -1,4 +1,5 @@
 import './Navbar.css';
+import logo from './taco-bell-logo.svg';
 
 
 const Navbar = ()=>{
@@ -7,7 +8,7 @@ const Navbar = ()=>{
             <nav className='navbar-nav'>
                 <div></div>
                 <div className='nav-logo'>
-                    <img src='' alt='Taco Bell'></img>
+                    <img src={logo} alt='Taco Bell'></img>
                 </div>
                 
                 <div className='spacer'/>

@@ -1,6 +1,6 @@
 .navbar{
     width: 100vw;
-    height: 60px;
+    height: 100px;
     position: fixed;
     background-color: white;
     top: 0;
@@ -9,8 +9,8 @@
 }
 
 .nav-logo img{
-    width: 40%;
-    height: 40%;
+    width: 4%;
+    height: 4%;
 }
 
 .navbar-nav{
