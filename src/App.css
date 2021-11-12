@@ -4,3 +4,8 @@ body{
   font-family: 'tacobell';
   
 }
+
+.take-home{
+  width: 100vw;
+  height: 100vh;
+}

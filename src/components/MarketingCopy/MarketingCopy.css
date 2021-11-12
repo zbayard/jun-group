@@ -1,7 +1,20 @@
 .marketing-copy{
     position: relative;
-    height: 100vh;
+    height: 100%;
+    width: 100vw;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: black; */
+    background: url(tacobellcravings.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-box{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -14,6 +27,15 @@ dark purple: #702082
 light purple: #A77BCA
  */
 
+
+/********** marketing copy **********/
+
+h1{
+    letter-spacing: 3px;
+    font-size: calc(15px + 2vw);
+    color: white;
+    align-self: center;
+}
 
 /********** call-to-action button **********/
 
@@ -90,3 +112,11 @@ light purple: #A77BCA
     animation: moveInBottom .5s ease-out 1s;
     animation-fill-mode: backwards;
 }
+
+
+/* @media(max-width: 400px){
+    .marketing-copy{
+        background: url(https://i.pinimg.com/originals/ab/d1/ee/abd1eea962e662359265b0c87e62b8ac.jpg) no-repeat;
+        background-position: 80% 80%;
+    }
+} */

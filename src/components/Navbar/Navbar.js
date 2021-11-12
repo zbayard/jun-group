@@ -16,13 +16,13 @@ const Navbar = ()=>{
                 <div className='nav-items'>
                     <ul>
                         <li>
-                            <a>instagram</a>
+                            <a>IG</a>
                         </li>
                         <li>
-                            <a>website</a>
+                            <a>WS</a>
                         </li>
                         <li>
-                            <a>other social</a>
+                            <a>OS</a>
                         </li>
                     </ul>
                 </div>
