@@ -1,4 +1,7 @@
 import './MarketingCopy.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons'
+
 
 const MarketingCopy = ()=>{
 
@@ -10,8 +13,13 @@ const MarketingCopy = ()=>{
                 <h1>OUR $1</h1>
                 <h1>CRAVINGS MENU!</h1>
             </div>
+
+            <div className='arrow-box'>
+                <FontAwesomeIcon className="arrow" color="white" icon={faAngleDoubleDown} size="2x" /> 
+            </div>
+
             <div className="btn-box">
-                <a href={link} className="btn btn-color btn-animated">See cravings menu!</a>
+                <a href={link} target='_blank' rel='noreferrer' className="btn btn-color btn-animated">See cravings menu!</a>
             </div>
 
             {/* <div className='social-icons'> */}

@@ -1,5 +1,7 @@
 import './Navbar.css';
 import logo from './taco-bell-logo.svg';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faYoutube, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 
 const Navbar = ()=>{
@@ -16,13 +18,19 @@ const Navbar = ()=>{
                 <div className='nav-items'>
                     <ul>
                         <li>
-                            <a>IG</a>
+                            <a href='https://www.instagram.com/tacobell/' target='_blank' rel='noreferrer'>
+                                <FontAwesomeIcon icon={faInstagram} size='2x'/>
+                            </a>
                         </li>
                         <li>
-                            <a>WS</a>
+                            <a href='https://twitter.com/tacobell' target='_blank' rel='noreferrer'>
+                                <FontAwesomeIcon icon={faTwitter} size='2x'/>
+                            </a>
                         </li>
                         <li>
-                            <a>OS</a>
+                            <a href='https://www.youtube.com/user/tacobell' target='_blank' rel='noreferrer'>
+                                <FontAwesomeIcon icon={faYoutube} size='2x'/>
+                            </a>
                         </li>
                     </ul>
                 </div>
