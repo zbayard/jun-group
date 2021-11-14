@@ -18,6 +18,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    animation: moveInBottom .5s ease-out 1s;
+    animation-fill-mode: backwards;
 }
 
 /* 
@@ -37,7 +39,7 @@ h1{
     background: -webkit-linear-gradient(#A77BCA, #702082);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    /* color: #A77BCA; */
+    filter: drop-shadow(3px 3px #333);
     align-self: center;
     margin: auto;
 }
