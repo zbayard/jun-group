@@ -33,8 +33,11 @@ light purple: #A77BCA
 
 h1{
     letter-spacing: 3px;
-    font-size: calc(15px + 2vw);
-    color: white;
+    font-size: calc(40px + 2vw);
+    background: -webkit-linear-gradient(#A77BCA, #702082);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* color: #A77BCA; */
     align-self: center;
     margin: auto;
 }
@@ -161,6 +164,10 @@ h1{
 
 /****** mobile viewing ******/
 @media(max-width: 768px){
+
+    h1{
+        font-size: calc(15px + 2vw);
+    }
     
 
     .btn-box{
