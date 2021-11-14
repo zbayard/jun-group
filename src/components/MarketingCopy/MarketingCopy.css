@@ -44,7 +44,7 @@ h1{
 .btn-box{
     position: absolute;
     top: 85%;
-    left: 50%;
+    left: 80%;
     transform: translate(-50%, -50%);
 }
 
@@ -122,7 +122,7 @@ h1{
 .arrow-box{
     position: absolute;
     top: 79%;
-    left: 50%;
+    left: 80%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -151,9 +151,38 @@ h1{
 }
 
 
-/* @media(max-width: 400px){
-    .marketing-copy{
-        background: url(https://i.pinimg.com/originals/ab/d1/ee/abd1eea962e662359265b0c87e62b8ac.jpg) no-repeat;
-        background-position: 80% 80%;
+/****** social icons  ******/
+
+.social-icons{
+    display: none;
+}
+
+
+
+/****** mobile viewing ******/
+@media(max-width: 768px){
+    
+
+    .btn-box{
+        left: 50%;
     }
-} */
+
+    .arrow-box{
+        top: 77%;
+        left: 50%;
+    }
+
+    .social-icons{
+        display: flex;
+        flex-direction: space-between;
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .icon{
+        margin: 20px;
+    }
+} 

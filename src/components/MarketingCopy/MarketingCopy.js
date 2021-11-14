@@ -1,6 +1,7 @@
 import './MarketingCopy.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons'
+import { faYoutube, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 
 const MarketingCopy = ()=>{
@@ -23,9 +24,20 @@ const MarketingCopy = ()=>{
                     <a href={link} target='_blank' rel='noreferrer' className="btn btn-color btn-animated">See cravings menu!</a>
                 </div>
 
-                {/* <div className='social-icons'> */}
-                    {/* social icons do not display above 375px width */}
-                {/* </div> */}
+                <div className='social-icons'>
+                            <a href='https://www.instagram.com/tacobell/' target='_blank' rel='noreferrer'>
+                                <FontAwesomeIcon className='icon' icon={faInstagram} size='3x'/>
+                            </a>
+                        
+                            <a href='https://twitter.com/tacobell' target='_blank' rel='noreferrer'>
+                                <FontAwesomeIcon className='icon' icon={faTwitter} size='3x'/>
+                            </a>
+                        
+                            <a href='https://www.youtube.com/user/tacobell' target='_blank' rel='noreferrer'>
+                                <FontAwesomeIcon className='icon' icon={faYoutube} size='3x'/>
+                            </a>
+                    
+                </div>
 
             
         </div>
