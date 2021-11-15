@@ -13,7 +13,8 @@ const MarketingCopy = ()=>{
                 <div className='text-box'>
                     <h1>INTRODUCING</h1>
                     <h1>OUR $1</h1>
-                    <h1>CRAVINGS MENU!</h1>
+                    <h1>CRAVINGS</h1>
+                    <h1>MENU!</h1>
                 </div>
 
                 <div className='arrow-box'>

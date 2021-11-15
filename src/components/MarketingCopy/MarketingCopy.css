@@ -35,11 +35,11 @@ light purple: #A77BCA
 
 h1{
     letter-spacing: 3px;
-    font-size: calc(50px + 2vw);
+    font-size: calc(45px + 2vw);
     background: -webkit-linear-gradient(#A77BCA, #702082);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    filter: drop-shadow(3px 3px #333);
+    filter: drop-shadow(5px 5px black);
     align-self: center;
     margin: auto;
 }
@@ -165,10 +165,10 @@ h1{
 
 
 /****** mobile viewing ******/
-@media(max-width: 768px){
+@media(max-width: 800px){
 
     h1{
-        font-size: calc(15px + 2vw);
+        font-size: calc(35px + 2vw);
     }
     
 
@@ -177,7 +177,7 @@ h1{
     }
 
     .arrow-box{
-        top: 77%;
+        top: 80%;
         left: 50%;
     }
 
@@ -194,3 +194,10 @@ h1{
         margin: 20px;
     }
 } 
+
+@media(max-width: 400px){
+    h1{
+        font-size: calc(20px + 2vw);
+        filter: drop-shadow(3px 3px black);
+    }
+}
