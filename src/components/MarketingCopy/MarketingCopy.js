@@ -9,7 +9,6 @@ const MarketingCopy = ()=>{
     const link = 'https://www.tacobell.com/food/cravings-value-menu?gclsrc=aw.ds&gclid=CjwKCAiAm7OMBhAQEiwArvGi3BCGRKRSqx-eL0YszoXdeOYMfHc4ir354g9d86THvfZ7yh9OUMi7pBoC6YkQAvD_BwE'
     return(
         <div className='marketing-copy'>
-            
                 <div className='text-box'>
                     <h1>INTRODUCING</h1>
                     <h1>OUR $1</h1>
@@ -23,19 +22,23 @@ const MarketingCopy = ()=>{
                 </div>
 
                 <div className='social-icons'>
-                            <a href='https://www.instagram.com/tacobell/' target='_blank' rel='noreferrer'>
-                                <FontAwesomeIcon className='icon' icon={faInstagram} size='3x'/>
-                            </a>
-                        
-                            <a href='https://twitter.com/tacobell' target='_blank' rel='noreferrer'>
-                                <FontAwesomeIcon className='icon' icon={faTwitter} size='3x'/>
-                            </a>
-                        
-                            <a href='https://www.youtube.com/user/tacobell' target='_blank' rel='noreferrer'>
-                                <FontAwesomeIcon className='icon' icon={faYoutube} size='3x'/>
-                            </a>
-                    
+                    <a href='https://www.instagram.com/tacobell/' target='_blank' rel='noreferrer'>
+                        <FontAwesomeIcon className='icon' icon={faInstagram} size='3x'/>
+                    </a>
+                                
+                    <a href='https://twitter.com/tacobell' target='_blank' rel='noreferrer'>
+                        <FontAwesomeIcon className='icon' icon={faTwitter} size='3x'/>
+                    </a>
+                                
+                    <a href='https://www.youtube.com/user/tacobell' target='_blank' rel='noreferrer'>
+                        <FontAwesomeIcon className='icon' icon={faYoutube} size='3x'/>
+                    </a>
+                            
                 </div>
+            <div className='card-overlay'>
+
+
+            </div>
 
             
         </div>
