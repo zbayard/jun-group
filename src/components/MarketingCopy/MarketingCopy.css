@@ -1,3 +1,12 @@
+/* 
+taco bell official hex colors- found at https://usbrandcolors.com/taco-bell-colors/
+
+
+dark purple: #702082
+light purple: #A77BCA
+*/
+
+/********** marketing copy **********/
 .marketing-copy{
     position: relative;
     height: 100%;
@@ -5,7 +14,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: black; */
     background: url(tacobellcravings.jpeg) no-repeat;
     background-size: cover;
     background-position: center;
@@ -19,7 +27,6 @@
 
 }
 
-
 .text-box{
     position: absolute;
     display: flex;
@@ -30,17 +37,6 @@
     animation-fill-mode: backwards;
     z-index: 100 !important;
 }
-
-/* 
-taco bell official hex colors- found at https://usbrandcolors.com/taco-bell-colors/
-
-
-dark purple: #702082
-light purple: #A77BCA
- */
-
-
-/********** marketing copy **********/
 
 h1{
     letter-spacing: 3px;
