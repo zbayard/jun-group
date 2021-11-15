@@ -17,11 +17,8 @@ const MarketingCopy = ()=>{
                     <h1>MENU!</h1>
                 </div>
 
-                <div className='arrow-box'>
-                    <FontAwesomeIcon className="arrow" color="white" icon={faAngleDoubleDown} size="2x" /> 
-                </div>
-
                 <div className="btn-box">
+                    <FontAwesomeIcon className="arrow" color="white" icon={faAngleDoubleDown} size="2x" /> 
                     <a href={link} target='_blank' rel='noreferrer' className="btn btn-color btn-animated">See cravings menu!</a>
                 </div>
 
