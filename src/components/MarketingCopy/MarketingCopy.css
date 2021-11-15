@@ -193,9 +193,15 @@ h1{
     }
 } 
 
-@media(max-width: 400px){
+@media(max-width: 420px){
+
+    .btn-box{
+        top: 80%;
+    }
+
     h1{
         font-size: calc(20px + 2vw);
         filter: drop-shadow(3px 3px black);
     }
+    
 }
