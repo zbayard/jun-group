@@ -35,10 +35,8 @@ const MarketingCopy = ()=>{
                     </a>
                             
                 </div>
-            <div className='card-overlay'>
-
-
-            </div>
+            
+            <div className='card-overlay'></div>
 
             
         </div>
